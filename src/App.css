@@ -1,0 +1,59 @@
+body{
+  text-align: center;
+}
+.productContainer{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.productContainer > .link {
+  width: 300px;
+  box-shadow: 0 0 10px #0f0d0dad;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.productContainer > .link:hover{
+  background-color: lightgray;
+}
+
+.navBar{
+  display: block ;
+  list-style-type: none;
+  background-color: #cccccc;
+  padding: 21px;
+}
+.navBarli {
+  cursor: pointer;
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 14px 25px;
+  border: solid;
+  border-style: solid;
+  border-width: medium;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: none;
+  border: none;
+  border-style: none;
+  border-width: 0px;
+
+} 
+
+a:active {
+  text-decoration: none;
+  color: #0f0d0dad;
+
+}
